@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CPROLB2"
+    "\\StyleCop-master",
+    "\\StyleCop-master\\StyleCop"
   ],
-  "SelectedNode": "\\CPROLB2\\CPROLB2.sln",
+  "SelectedNode": "\\StyleCop-master\\StyleCop\\StyleCop.sln",
   "PreviewInSolutionExplorer": false
 }
