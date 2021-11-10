@@ -13,11 +13,10 @@ namespace StyleCop
     {
         private static Logger instance;
         private DateTime _date1;
-        private StringBuilder _information;
+        private string _information;
 
         private Logger()
         {
-            _information = new StringBuilder("\n");
         }
 
         public static Logger GetInstance()
@@ -33,18 +32,19 @@ namespace StyleCop
         public void Print(TypeLog lof, string message)
         {
             _date1 = DateTime.Now;
+
             Console.WriteLine($"{_date1}: {lof}: {message}");
             SaveInfo(_date1, lof, message);
         }
 
         public void SaveInfo(DateTime date, TypeLog lof, string message)
         {
-           _information.Append($"{_date1}: {lof}: {message}\n");
+           _information += $"{_date1}: {lof}: {message}\n";
         }
 
-        public void GetInfo()
+        public string GetInfo()
         {
-            Console.WriteLine(_information);
+            return _information;
         }
     }
 }

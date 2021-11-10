@@ -2,7 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\StyleCop-master",
-    "\\StyleCop-master\\StyleCop"
+    "\\StyleCop-master\\StyleCop",
+    "\\StyleCop-master\\StyleCop\\StyleCop"
   ],
   "SelectedNode": "\\StyleCop-master\\StyleCop\\StyleCop.sln",
   "PreviewInSolutionExplorer": false
